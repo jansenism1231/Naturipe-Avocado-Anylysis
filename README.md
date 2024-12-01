@@ -124,7 +124,7 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 ## **Next Steps**
 1. **Gather More Data**:
    - Embed longer period of data so that model like `LightGBM`can perform better on prediction
-   - Embed other useful features so that model like 'ETS' can capture more pattern in data.
+   - Embed other useful features so that model like `ETS` can capture more pattern in data.
      
 2. **Further Model Optimization**:
    - Hyperparameter tuning (e.g., learning rates, regularization parameters).
