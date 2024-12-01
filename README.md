@@ -117,15 +117,19 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 ---
 
 ## **Next Steps**
-1. **Further Model Optimization**:
+1. **Gather More Data**:
+   - Embed longer period of data so that model like `LightGBM`can perform better on prediction
+   - Embed other useful features so that model like 'ETS' can capture more pattern in data.
+     
+2. **Further Model Optimization**:
    - Hyperparameter tuning (e.g., learning rates, regularization parameters).
    - Experiment with hybrid models for improved performance.
 
-2. **Integration**:
+3. **Integration**:
    - Deploy the best-performing models into a real-time forecasting pipeline.
 
-3. **Client-Specific Customization**:
-   - Tailor predictions to client needs (e.g., different forecasting horizons, specific supply chain factors).
+4. **Client-Specific Customization**:
+   - Tailor predictions to useage needs (e.g., different forecasting horizons, specific supply chain factors).
 
 ---
 
@@ -133,5 +137,5 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 For any inquiries, feel free to reach out:
 
 - **Email**: [hzheng238@wisc.edu]
-- **GitHub**: [Jansensim1231]
+- **GitHub**: [Jansenism1231]
 - **LinkedIn**: [Hanwen Zheng]
