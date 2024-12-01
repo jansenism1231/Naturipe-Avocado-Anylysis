@@ -93,6 +93,8 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 1. **Clone the Repository**:
    ```bash
    git clone <repository_url>
+   ![image](https://github.com/user-attachments/assets/9abeb8bf-7aeb-47da-8ac5-4a4306dc4086)
+
 2. **Dependencies**:
     ```bash
    pip install -r requirements.txt
