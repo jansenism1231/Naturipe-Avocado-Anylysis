@@ -6,7 +6,7 @@ This project aims to predict avocado supply volumes using machine learning techn
 ## **Project Objectives**
 1. Develop a robust forecasting solution for supply volume trends.
 2. Leverage state-of-the-art models (machine learning, time series, neural networks) to identify patterns and provide reliable future predictions.
-3. Provide interpretable results to stakeholders through a mix of statistical analyses and visualizations.
+3. Provide interpretable results to Naturipe through a mix of statistical analyses and visualizations.
 
 ---
 
@@ -23,6 +23,7 @@ The repository includes the following models, each tailored to address specific 
 - Leverages gradient boosting with tree-based models.
 - Implements L1 and L2 regularization to reduce overfitting.
 - Supports advanced feature engineering (e.g., temporal features).
+- Get the best peformance by far.
 
 ### **3. ARIMA**
 - **File**: `ARIMA.ipynb`
