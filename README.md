@@ -107,12 +107,17 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 
 ## **Results Summary**
 1. **Model Comparison**:
-   - Best models for short-term forecasts: **LightGBM, SARIMA, and ETS**.
-   - Best models for long-term forecasts: **LSTM, XGBoost + SARIMA**.
+   - **Best Model**: The **Current-Best Model**, as highlighted in the analysis, achieved:
+     - **R²**: 0.9365
+     - **RMSE**: 1,742,280.99
+   - This model effectively captures historical trends and makes reliable future predictions with minimal error.
+   - Example models that underperformed:
+     - ETS: Deviated from historical trends.
+     - SARIMA: Inconsistent with future supply predictions.
 
 2. **Insights**:
-   - Supply trends show seasonality captured effectively by time-series models (ETS, SARIMA).
-   - Machine learning models (LightGBM, XGBoost) outperform in handling non-linear relationships and external factors (e.g., weather).
+   - Supply trends did show seasonality captured effectively by time-series models (ETS, SARIMA), so embed more feature align with seasonality may help these model on prediction.
+   - Machine learning models (LightGBM, XGBoost) outperform in handling non-linear relationships and external factors (e.g., weather), but need greater amount of data to predict more effectively.
 
 ---
 
