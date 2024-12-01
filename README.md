@@ -102,3 +102,36 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 - For future predictions, set `time_period` in the respective notebook (e.g., LightGBM, SARIMA, ETS):
    ```bash
    time_period = 30  # Predict for the next 30 days
+
+---
+
+## **Results Summary**
+1. **Model Comparison**:
+   - Best models for short-term forecasts: **LightGBM, SARIMA, and ETS**.
+   - Best models for long-term forecasts: **LSTM, XGBoost + SARIMA**.
+
+2. **Insights**:
+   - Supply trends show seasonality captured effectively by time-series models (ETS, SARIMA).
+   - Machine learning models (LightGBM, XGBoost) outperform in handling non-linear relationships and external factors (e.g., weather).
+
+---
+
+## **Next Steps**
+1. **Further Model Optimization**:
+   - Hyperparameter tuning (e.g., learning rates, regularization parameters).
+   - Experiment with hybrid models for improved performance.
+
+2. **Integration**:
+   - Deploy the best-performing models into a real-time forecasting pipeline.
+
+3. **Client-Specific Customization**:
+   - Tailor predictions to client needs (e.g., different forecasting horizons, specific supply chain factors).
+
+---
+
+## **Contact**
+For any inquiries, feel free to reach out:
+
+- **Email**: [hzheng238@wisc.edu
+- **GitHub**: [Jansensim1231
+- **LinkedIn**: [Hanwen Zheng]
