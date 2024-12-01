@@ -93,13 +93,15 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 1. **Clone the Repository**:
    ```bash
    git clone <repository_url>
-[image](https://github.com/user-attachments/assets/9abeb8bf-7aeb-47da-8ac5-4a4306dc4086)
+
 
 2. **Dependencies**:
     ```bash
    pip install -r requirements.txt
+    
 3. **Run Notebooks**:
 - Use any Jupyter Notebook `(.ipynb)` to explore specific models or analyses.
+  
 4. **Adjust Forecasting Horizon**:
 - For future predictions, set `time_period` in the respective notebook (e.g., LightGBM, SARIMA, ETS):
    ```bash
