@@ -88,3 +88,11 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 - Included future supply forecasts with adjustable time periods.
 
 ---
+
+## **How to Use**
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository_url>
+
+
+
