@@ -132,6 +132,6 @@ In addition to the models, we conducted detailed data analysis to enhance unders
 ## **Contact**
 For any inquiries, feel free to reach out:
 
-- **Email**: [hzheng238@wisc.edu
-- **GitHub**: [Jansensim1231
+- **Email**: [hzheng238@wisc.edu]
+- **GitHub**: [Jansensim1231]
 - **LinkedIn**: [Hanwen Zheng]
