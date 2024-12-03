@@ -17,7 +17,7 @@ The repository includes the following models, each tailored to address specific 
 - **File**: `850_ets.ipynb`
 - Implements classical exponential smoothing for time-series forecasting.
 - Provides interpretable seasonality and trend decomposition.
-- 
+- #### Failed to capture the original trend
 
 ### **2. LightGBM**
 - **Files**: `lightgbm.ipynb`, `lightgbm-modified final.ipynb`, `trial on lightgbm.ipynb`
@@ -30,39 +30,46 @@ The repository includes the following models, each tailored to address specific 
 - **File**: `ARIMA.ipynb`
 - Auto-Regressive Integrated Moving Average model for univariate time series.
 - Suitable for capturing autocorrelations and trends in stationary data.
+- #### Failed to exclude seasonality, move on to SARIMA.
 
 ### **4. SARIMA**
 - **File**: `SARIMA.ipynb`
 - Seasonal extension of ARIMA for modeling seasonality in the data.
 - Captures complex seasonal patterns in supply data.
+- #### Takes long time to run, but have potential since it provides result that captures the trend.
 
 ### **5. LSTM (Long Short-Term Memory)**
 - **File**: `LSTM.ipynb`
 - Neural network model designed for sequential data.
 - Captures long-term dependencies and non-linear patterns in time series.
+- #### Performs poorly, maybe fintuning can help, but do not recommend using this model.
 
 ### **6. Random Forest**
 - **File**: `randomforest.ipynb`
 - A tree-based ensemble model suitable for handling non-linear relationships.
 - Provides robust predictions by averaging results across multiple decision trees.
+- #### Performs poorly, not recommended. 
 
 ### **7. XGBoost**
 - **File**: `xgboost.ipynb`
 - Gradient boosting framework optimized for speed and performance.
 - Handles missing values and outliers effectively.
+- #### Failed to capture trend at the beginning and ending of the dataset.
 
 ### **8. ETS + Ridge Regression**
 - **File**: `ets_ridgeregression.ipynb`
 - Combines ETS for capturing seasonality with Ridge Regression for robust linear modeling.
+- #### The output is not making any sence.
 
-### **9. Tiny Time Mixer**
-- **File**: `tinytimemixer.ipynb`
+### **9. LightGBM+SARIMA**
+- **File**: `LightGBM+Sarima.ipynb`
 - A novel approach that blends neural architectures with traditional forecasting techniques.
+- #### Also works great in predict past feature. Fine
 
 ### **10. XGBoost + SARIMA**
 - **File**: `xgboost+sarima.ipynb`
 - Hybrid model combining machine learning and time-series components for improved accuracy.
-
+- #### Takes long time to run, the introduce of sarima increased xgboost's accuracy, but doubled the complexity. Requires detailed examination and interpertaion.
 ---
 
 ## **Analysis Conducted**
