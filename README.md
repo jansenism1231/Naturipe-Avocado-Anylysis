@@ -17,13 +17,14 @@ The repository includes the following models, each tailored to address specific 
 - **File**: `850_ets.ipynb`
 - Implements classical exponential smoothing for time-series forecasting.
 - Provides interpretable seasonality and trend decomposition.
+- 
 
 ### **2. LightGBM**
 - **Files**: `lightgbm.ipynb`, `lightgbm-modified final.ipynb`, `trial on lightgbm.ipynb`
 - Leverages gradient boosting with tree-based models.
 - Implements L1 and L2 regularization to reduce overfitting.
 - Supports advanced feature engineering (e.g., temporal features).
-- Get the best peformance by far.
+- #### Get the best peformance by far.
 
 ### **3. ARIMA**
 - **File**: `ARIMA.ipynb`
